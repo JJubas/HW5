@@ -1,0 +1,166 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexMatches {
+
+   public static void main( String args[] ) {
+
+	if (Pattern pattern = Pattern.compile("<html(.*)\\>");
+	Matcher matcher = pattern.matcher("website"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<head(.*)\\>");
+	Matcher matcher = pattern.matcher(""); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<title(.*)\\>");
+	Matcher matcher = pattern.matcher("your title here"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<body(.*)\\>");
+	Matcher matcher = pattern.matcher("BGCOLOR="FFFFFF"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<p(.*)\\>");
+	Matcher matcher = pattern.matcher("his is a new paragraph!"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<b(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<u(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<i(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<ol(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<ul(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<li(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<hl(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<h2(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<blockquote(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+	if (Pattern pattern = Pattern.compile("<div(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}
+	
+		if (Pattern pattern = Pattern.compile("<iframe(.*)\\>");
+	Matcher matcher = pattern.matcher("\S*"); )
+	{
+		boolean found = false;
+		while (matcher.find())
+			{
+				matcher.group().toString());
+			}
+	}

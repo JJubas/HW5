@@ -1,0 +1,41 @@
+import java.util.HashSet;
+
+
+//taken from the slides
+public class TreeNode<E>
+{
+    private E data;
+    private TreeNode<E> parent;
+    private HashSet<TreeNode<E>> children;
+    public TreeNode(TreeNode<E> parent, E data)
+    {
+        this.parent = parent;
+        this.data = data;
+    }
+
+    public TreeNode<E> getParent()
+    {
+        return this.parent;
+    }
+
+    public void setParent(TreeNode<E> parent)
+    {
+        this.parent = parent;
+    }
+
+    public boolean addChild(TreeNode<E> child)
+    {
+        return this.children.add(child);
+    }
+
+    public boolean removeChild(TreeNode<E> child)
+    {
+        return this.children.remove(child);
+    }
+
+    public HashSet<TreeNode<E>> getChildren()
+    {
+        return this.children;
+    }
+}
+
